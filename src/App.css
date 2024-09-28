@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif; 
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #B17457;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #B17457;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+li.completed {
+   background-color: #e6beae; 
+}
+
+@media (max-width:600px) {
+   input, button {
+      width :100%;
+      margin-top :5px ;
+      margin-bottom :5px ;
+      padding :12px ;
+      font-size :larger ;
+   }
+}
